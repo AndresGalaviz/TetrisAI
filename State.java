@@ -152,7 +152,10 @@ public class State{
 		return turn;
 	}
 	
-	
+	// ADDED FUNCTION WARNING!!!
+	public int[][] getLegalMovesFromPiece(int id){
+		return legalMoves[id];
+	}
 
 	//random integer, returns 0-6
 	private int randomPiece() {
