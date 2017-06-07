@@ -1,11 +1,12 @@
-This is a basic Tetris simulation.
+Tetris AI with Parallel Genetic Algorithms 
 
 Files:
 	State - tetris simulation
 	TFrame - frame that draws the board
 	TLabel - drawing library
-	PlayerSkeleton - setup for implementing a player
+	PlayerSkeleton - Tetris AI
 	
+Refer to TetrisAI_Report.pdf for more information on the AI agent.
 	
 State:
 This is the tetris simulation.  It keeps track of the state and allows you to 
